@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>java object</title>
+</head>
+<body>
+    <h2>javascript object</h2>
+    
+    <p id="test"></p>
+    <script>
+        const orang = {
+            namapertama :"Evan",
+            namaterakhir:"Kurniawan",
+            id:"2200",
+            namalengkap:function(){
+                return this.namapertama+ " " + this.namaterakhir;
+            }
+        }; 
+
+        document.getElementById("test").innerHTML = orang.namalengkap   ();
+    </script>
+</body>
+</html>
