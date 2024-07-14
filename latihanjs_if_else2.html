@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <p id="test">latihan js if</p>
+    <script>
+        const waktu = new Date().getHours();
+            let hari;
+            
+           if (waktu <10 ) {
+            hari ="sudah sore";
+           } else if(waktu < 12){
+            hari =" sudah siang ";
+           }else{
+            hari =" sudah pagi"
+           }
+        document.getElementById("test").innerHTML = hari;
+    </script>
+</body>
+</html>
